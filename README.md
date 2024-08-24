@@ -1,8 +1,29 @@
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
-
+1. Repository- Used for storing and tracking all files of the project.
+2. Commit- Inserts the changes made together with it's description.
+3. Branch- A parallel version of the repository that allows developers to work on different features of a project without affecting the main codebase.
+4. Merge- Combining changes from one branch into another.
+- GitHub makes it easy for developers to work together by providing tools for managing pull requests, reviewing code, and discussing changes. This makes it a popular tool for managing versions of code.
+Version control maintains integrity by the following ways;
+1. Reverting- If a mistake is made, it's possible to revert to a previous version of the project.
+2. Tracking Changes- This  allows developers to see who made specific changes and and reasons as explained in the description.
+3. Collaboration- Multiple developers can work on the same project simultaneously without overwriting each other's changes.
+4. Experimentation: Developers can create branches to experiment new ideas without risking the main project.
+5. Backup- Protects the project from accidental deletion.
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
-
+1. log in to your GitHub account
+2. Click on the plus sign on the top right and select new repository.
+3. Confirm the user name and name your file
+4. Describe the changes you want to make and why.
+5. Choose whether your file will be public or private.
+6. You may include a read me file and license
+Important Decisions to Make
+1. Repository Name- Ensure the name is descriptive and unique.
+2. Initialize with a README file- It’s good to include a README file at the start. It provides context and can serve as documentation for your project.
+3. Adding a .gitignore File: Select a .gitignore template based on your programming language to automatically exclude unnecessary files from your repository.
+4. Accessibility- Decide whether your code should be public or private. If it's a sensitive or personal project, select private.
+5. Choosing a License: For a public project, it’s important to pick an appropriate license for permissions and restrictions for using or distributing your project.
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
