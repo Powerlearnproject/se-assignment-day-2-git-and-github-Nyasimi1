@@ -78,7 +78,18 @@ Important Decisions to Make
   4. Commit the changes by clicking git commit -m "Description of your changes"
   5. Merge the branch by clicking git checkout main and then git merge branch name
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
-
+- Pull requests allow developers to propose changes, review, and ensure quality work before integrating it into the main branch.
+-  How they facilitate code review and collaboration;
+  1. Enhances collaboration by allowing multiple contributors to review and discuss changes.
+  2. Encourages transparency and discussion by making proposed changes visible to all members.
+  3. Allow controlled merging of changes reducing the risk of introducing errors into the main code.
+  4. Records what was changed, why it was changed, and who contributed to the change making tracing easy.
+- Steps;
+  1. Create a new branch from the main branch.
+  2. Make necessary changes and commit them to your branch.
+  3. Create a new pull request and specify the base branch as well as the branch containing the changes.
+  4. Review, make changes and approve them
+  5. Merge the pull request into the main branch.
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
