@@ -120,4 +120,3 @@ Important Decisions to Make
   3. Create branches for different features.
   4. Ask for help or learn from others.
   5. Run automated tests whenever changes are made.
-  6. 
